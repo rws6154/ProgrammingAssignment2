@@ -72,4 +72,5 @@ cacheSolve <- function(x, ...) {
   	message("cache not in use - calculating inverse")
   	i <- solve(x)
   	return(i)
+  }
 }
